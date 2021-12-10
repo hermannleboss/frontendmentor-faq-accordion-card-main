@@ -1,0 +1,14 @@
+/*.grid{
+  display: grid;
+  &--inline{
+    display: inline-grid;
+  }
+  &--3{
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+  }
+  &--4{
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 30px;
+  }
+}*/

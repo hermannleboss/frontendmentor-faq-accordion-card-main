@@ -3,8 +3,16 @@
   "version": "1.0.0",
   "description": "Frontend Mentor Faq Accordion Card by HermannEHO",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hermannleboss/frontendmentor-faq-accordion-card-main.git"
+  },
   "author": "Hermann K. EHO",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hermannleboss/frontend-mentor-meet-landing-page/issues"
+  },
+  "homepage": "https://github.com/hermannleboss/frontend-mentor-meet-landing-page#readme",
   "devDependencies": {
     "css-loader": "^6.5.1",
     "sass": "^1.44.0",

@@ -1,0 +1,14 @@
+{
+  "name": "faq-accordion-card-main",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Faq Accordion Card by HermannEHO",
+  "main": "index.js",
+  "author": "Hermann K. EHO",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "sass": "^1.44.0",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.65.0"
+  }
+}

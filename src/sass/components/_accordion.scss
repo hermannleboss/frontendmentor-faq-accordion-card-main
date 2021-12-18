@@ -1,0 +1,7 @@
+.accordion{
+  &__element{
+    border-bottom: solid $color-light-gray-blue-hsl 1px;
+    padding-bottom: 16px;
+    min-width: 350px;
+  }
+}

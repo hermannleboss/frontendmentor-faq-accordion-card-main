@@ -19,7 +19,6 @@ label {
   margin: 0 0 1px 0;
   cursor: pointer;
   color: $color-dark-blue-hsl;
-  border-bottom: solid $color-light-gray-blue-hsl 1px;
   transition: ease .5s;
   &:hover {
     color: $color-soft-red-hsl;
@@ -27,7 +26,6 @@ label {
 }
 
 .content {
-  font-family: Kumbh Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -46,7 +44,6 @@ input:checked + label + .content {
   display: block;
 }
 input:checked + label{
-  font-family: Kumbh Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;

@@ -24,13 +24,38 @@
 </head>
 <body>
 <div class="grid grid__col--2 card">
-    <div class="card__illustration"></div>
+    <div class="card__illustration">
+        <img src="images/bg-pattern-desktop.svg" alt="" class="card__illustration__bg">
+        <img src="images/illustration-woman-online-desktop.svg" alt="" class="card__illustration__woman">
+        <img src="images/illustration-box-desktop.svg" alt="" class="card__illustration__box">
+        <!--
+        <img src="images/bg-pattern-desktop.svg" alt="" style="width: 100%;
+        position: absolute;
+            width: 964px;
+            height: 944px;
+            left: -376px;
+            top: -194px;
+
+            ">
+        <img src="images/illustration-woman-online-desktop.svg" alt="" style="width: 100%;
+        position: absolute;
+            width: 472px;
+            height: 359px;
+            left: 184px;
+            top: 170px;">
+        <img src="images/illustration-box-desktop.svg" alt="" style="width: 40% ;
+        position: absolute;
+            width: 110px;
+            left: 220.93px;
+            top: 345.12px;">-->
+    </div>
     <div class="card__content">
         <h1>FAQ</h1>
         <div class="accordion">
             <div class="accordion accordion__element">
                 <input type="checkbox" id="title1"/>
-                <label for="title1">How many team members can I invite? <img src="images/icon-arrow-down.svg" alt=""></label>
+                <label class="accordion__element__label" for="title1">How many team members can I invite?
+                    <img class="accordion__element__label__arrow" src="./images/icon-arrow-down.svg" alt=""></label>
                 <div class="content">
                     <p>You can invite up to 2 additional users on the Free plan. There is no limit on
                         team members for the Premium plan.</p>
@@ -38,14 +63,16 @@
             </div>
             <div class="accordion__element">
                 <input type="checkbox" id="title2"/>
-                <label for="title2">What is the maximum file upload size?</label>
+                <label class="accordion__element__label" for="title2">What is the maximum file upload size?
+                    <img class="accordion__element__label__arrow" src="./images/icon-arrow-down.svg" alt=""></label>
                 <div class="content">
                     <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
                 </div>
             </div>
             <div class="accordion__element">
                 <input type="checkbox" id="title3"/>
-                <label for="title3">How do I reset my password?</label>
+                <label class="accordion__element__label" for="title3">How do I reset my password?
+                    <img class="accordion__element__label__arrow" src="./images/icon-arrow-down.svg" alt=""></label>
                 <div class="content">
                     <p>Click “Forgot password” from the login page or “Change password” from your profile page.
                         A reset link will be emailed to you.</p>
@@ -53,14 +80,16 @@
             </div>
             <div class="accordion__element">
                 <input type="checkbox" id="title4"/>
-                <label for="title4">Can I cancel my subscription?</label>
+                <label class="accordion__element__label" for="title4">Can I cancel my subscription?
+                    <img class="accordion__element__label__arrow" src="./images/icon-arrow-down.svg" alt=""></label>
                 <div class="content">
                     <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
                 </div>
             </div>
             <div class="accordion__element">
                 <input type="checkbox" id="title5"/>
-                <label for="title5">Do you provide additional support?</label>
+                <label class="accordion__element__label" for="title5">Do you provide additional support?
+                    <img class="accordion__element__label__arrow" src="./images/icon-arrow-down.svg" alt=""></label>
                 <div class="content">
                     <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
                 </div>

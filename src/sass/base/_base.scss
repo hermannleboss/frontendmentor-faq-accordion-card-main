@@ -7,3 +7,49 @@ body{
   background: linear-gradient(180deg, $color-primary 0%, $color-secondary 100%);
   font-size: 12px;
 }
+input {
+  display: none;
+}
+label {
+  font-size: 14px;
+  line-height: 14px;
+
+  display: block;
+  padding: 8px 0px;
+  margin: 0 0 1px 0;
+  cursor: pointer;
+  color: $color-dark-blue-hsl;
+  border-bottom: solid $color-light-gray-blue-hsl 1px;
+  transition: ease .5s;
+  &:hover {
+    color: $color-soft-red-hsl;
+  }
+}
+
+.content {
+  font-family: Kumbh Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+
+  color: $color-gray-hsl;
+
+}
+input + label + .content {
+   display: none;
+ }
+
+input:checked + label + .content {
+  display: block;
+}
+input:checked + label{
+  font-family: Kumbh Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  color: $color-dark-blue-hsl;
+}

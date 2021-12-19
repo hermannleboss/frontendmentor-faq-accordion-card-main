@@ -1,0 +1,33 @@
+
+.card{
+  background-color: white;
+  padding: 65px 95px;
+  max-height: 509px;
+  overflow: hidden;
+  &__illustration{/*
+    background-image: url("../images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;*/
+    left: -40%;
+    top: -10%;
+    &__bg{
+      position: relative;
+      left: -100%;
+      width: 200%;
+    }
+    &__woman{
+      position: relative;
+      width: 100%;
+      top: -40%;
+    }
+    &__box{
+      position: relative;
+      width: 40%;
+      top: -55%;
+      left: -5%;
+    }
+  }
+  &__content{
+
+  }
+}

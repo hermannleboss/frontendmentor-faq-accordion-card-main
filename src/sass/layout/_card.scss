@@ -5,12 +5,14 @@
   margin: 130px 260px;
   padding: 65px 95px;
   max-height: 509px;
+  overflow: hidden;
   &__illustration{/*
     background-image: url("../images/bg-pattern-desktop.svg");
     background-repeat: no-repeat;
     background-position: right bottom;*/
     position: relative;
     left: -40%;
+    top: -10%;
     &__bg{
       position: relative;
       left: -100%;

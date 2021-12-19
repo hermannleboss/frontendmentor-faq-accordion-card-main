@@ -1,0 +1,12 @@
+.accordion{
+  &__element{
+    border-bottom: solid $color-light-gray-blue-hsl 1px;
+    padding-bottom: 16px;
+    width: 350px;
+    &__label{
+      justify-content: space-between;
+      &__arrow{
+      }
+    }
+  }
+}
